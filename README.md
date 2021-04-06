@@ -10,7 +10,7 @@ The [notebook](https://www.kaggle.com/akashsdas/cats-vs-dogs-the-final-showdown)
 
 **Count plot for the labels**
 
-![](./../docs/imgs/count-plot.png)
+![](./docs/imgs/count-plot.png)
 
 There are total `16 kernels` (versions) for this project on Kaggle. Here only info for the `best`, `latest` and `longest trained` model info is given, if you want to look at other version then go to the main [kernel](https://www.kaggle.com/akashsdas/cats-vs-dogs-the-final-showdown) and change the versions.
 
@@ -40,9 +40,9 @@ Here `InceptionV3` model is used as the base model and the entire model is train
 
 **Model performance against testing data**
 
-![](./../docs/imgs/latest-model-testing-score.png)
+![](./docs/imgs/latest-model-testing-score.png)
 
-![](./../docs/imgs/latest-model-confusion-matrix.png)
+![](./docs/imgs/latest-model-confusion-matrix.png)
 
 ### Model info for the longest trained model
 
@@ -56,18 +56,18 @@ Here `VGG16` model is used as the base model and the entire model is trained for
 
 **Accuracy and loss curves for this model**
 
-![](./../docs/imgs/longest-model-accuracy-curve.png)
-![](./../docs/imgs/longest-model-loss-curve.png)
+![](./docs/imgs/longest-model-accuracy-curve.png)
+![](./docs/imgs/longest-model-loss-curve.png)
 
 **Model performance against testing data**
 
-![](./../docs/imgs/longest-model-testing-score.png)
+![](./docs/imgs/longest-model-testing-score.png)
 
 ### Model predictions
 
 **Lastest model's predictions on testing data (part of training data)**
 
-![](./../docs/imgs/predictions.png)
+![](./docs/imgs/predictions.png)
 
 ## Visualizing feature maps
 
@@ -77,41 +77,41 @@ If you want to see the visualizations for the filters for `VGG16` and `Inception
 
 **Animal image**
 
-![](./../docs/imgs/vgg16-visualization-1.png)
+![](./docs/imgs/vgg16-visualization-1.png)
 
 **1st conv layer**
 
-![](./../docs/imgs/vgg16-visualization-2.png)
+![](./docs/imgs/vgg16-visualization-2.png)
 
 **11th conv layer**
 
-![](./../docs/imgs/vgg16-visualization-3.png)
+![](./docs/imgs/vgg16-visualization-3.png)
 
 **17th conv layer**
 
-![](./../docs/imgs/vgg16-visualization-4.png)
+![](./docs/imgs/vgg16-visualization-4.png)
 
 ### Feature maps for InceptionV3
 
 **Animal image**
 
-![](../docs/imgs/inceptionv3-visualization-1.png)
+![](./docs/imgs/inceptionv3-visualization-1.png)
 
 **1st conv layer**
 
-![](../docs/imgs/inceptionv3-visualization-2.png)
+![](./docs/imgs/inceptionv3-visualization-2.png)
 
 **3rd conv layer**
 
-![](../docs/imgs/inceptionv3-visualization-3.png)
+![](./docs/imgs/inceptionv3-visualization-3.png)
 
 **Mid conv layer**
 
-![](../docs/imgs/inceptionv3-visualization-4.png)
+![](./docs/imgs/inceptionv3-visualization-4.png)
 
 **Last conv layer**
 
-![](../docs/imgs/inceptionv3-visualization-5.png)
+![](./docs/imgs/inceptionv3-visualization-5.png)
 
 ## Issues
 
@@ -123,15 +123,15 @@ The issue is explained in the latest [kernel](https://www.kaggle.com/akashsdas/c
 
 **Testing data evaluation results**
 
-![](./../docs/imgs/latest-model-testing-score.png)
+![](./docs/imgs/latest-model-testing-score.png)
 
 **Using the previous method**
 
-![](./../docs/imgs/latest-model-confusion-matrix-wrong-results.png)
+![](./docs/imgs/latest-model-confusion-matrix-wrong-results.png)
 
 **Using the new (right) method**
 
-![](./../docs/imgs/latest-model-confusion-matrix.png)
+![](./docs/imgs/latest-model-confusion-matrix.png)
 
 `The confusion matrix for the longest and the best models had this issue, can be viewed in their respective kernels. This issue is solved for the latest kernel`.
 
