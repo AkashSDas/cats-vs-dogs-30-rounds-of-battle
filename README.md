@@ -2,6 +2,21 @@
 
 [Dogs vs. Cats Redux: Kernels Edition](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition) is a `Kaggle`'s competition where using the dataset you have to create `classifier` that can classify images as `dog` or `cat`. The `evaluation` metirc for this competition is `cross entropy`.
 
+## Table of contents
+
+- [Getting started](#getting-started)
+- [Model info](#model-info)
+  - [Model info for the best model](#model-info-for-the-best-model)
+  - [Model info for the latest model](#model-info-for-the-latest-model)
+  - [Model info for the longest trained model](#model-info-for-the-longest-trained-model)
+- [Model predictions](#model-predictions)
+- [Visualizing feature maps](#visualizing-feature-maps)
+  - [Feature maps for VGG16](#feature-maps-for-vgg16)
+  - [Feature maps for InceptionV3](#feature-maps-for-inceptionv3)
+- [Issues](#issues)
+- [Latest model info](#latest-model-info)
+- [License](#license)
+
 ## Getting started
 
 The [notebook](https://www.kaggle.com/akashsdas/cats-vs-dogs-the-final-showdown) is available on Kaggle to work in the same environment where this notebook was created i.e. use the same version packages used, etc...
@@ -63,7 +78,7 @@ Here `VGG16` model is used as the base model and the entire model is trained for
 
 ![](./docs/imgs/longest-model-testing-score.png)
 
-### Model predictions
+## Model predictions
 
 **Lastest model's predictions on testing data (part of training data)**
 
